@@ -1,0 +1,220 @@
+
+.my-bar-item {
+    color: rgb(108, 108, 108);
+    margin-right: 20px!important;
+    margin-top: 30px;
+
+   
+}
+
+.my-bar-item a {
+    text-decoration: none;
+}
+
+.my-bar-item:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.my-bar {
+
+    font-size: 12px;
+}
+
+.my-header-logo {
+    width: 22%!important;
+    margin-left: 40px;
+    margin-top:5px;
+
+}
+
+.my-name {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0;
+
+    font-family: Montserrat;
+    letter-spacing: 0.0em;
+    line-height: 1.0em;
+    font-size: 18px;
+}
+
+.my-job {
+    text-decoration: none;
+    margin-left:90px;
+
+    margin-top:-20px!important;
+}
+
+.my-text {
+    font-size: 12px;
+    font-weight: bold;
+
+    color: rgb(151, 151, 151);
+
+    font-family: Montserrat;
+    letter-spacing: 1em;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.my-logo-card {
+    float: left;
+    margin-left: 50px;
+
+    margin-top: 40px;
+}
+
+.my-logo-bg {
+    width: 280px;
+
+    background-repeat: no-repeat;
+
+    height: 318px;
+    background-size: 280px 300px;
+    
+    background-image: url("https://lh3.googleusercontent.com/r5NycmQDcE-0tzZStMFA-yvLej13s7OM4nEZOVzigWF80XMDT0tP4H3zUvJCfe-WeXEgVXJ4iAFFfuDBzjQ8ok51hbFdo0ZZeM__e37O4g=s636");
+}
+
+h2, h3{
+    font-family: Montserrat;
+    margin-top: -10px;
+}
+
+h2 {
+    font-size: 15px;
+
+    color: rgb(0, 0, 0);;
+}
+
+h3 {
+    font-size: 12px;
+    color: rgb(147, 147, 147);;
+}
+
+.my-body {
+    align-items: center;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width:600px){
+    .my-header-logo 
+    {
+        width: 0%!important;
+    }
+}
+
+h6 {
+    margin-bottom: 50px!important;
+}
+
+
+h4 {
+    margin-top: 130px;
+    font-family: Montserrat;
+    font-size:30px ;
+    letter-spacing: 0.0em;
+    line-height: 1.0em;
+    
+    color: rgb(21, 21, 21);
+}
+
+.my-slideshow {
+    height: 500px;
+    background-color: black;
+
+    margin-top: 200px;
+}
+
+.my-slogan {
+    text-decoration: none;
+}
+
+.my-icon {
+    margin-top: 50px!important;
+
+    width: 50px;
+    margin: 10px;
+}
+
+.my-icon:hover {
+    width: 60px;
+}
+
+.my-sd {
+    font-size: 12px;
+    margin: 10px;
+    color: gray;
+}
+
+.my-uri {
+    font-size:15px;
+    margin: 20px;
+    color: black;
+}
+
+.slider-element {
+    background-position: 49.4378% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 100%;
+    background-repeat: no-repeat;
+    max-width: none;
+    max-height: none;
+    overflow: hidden;
+    line-height: 0px !important;
+    position: relative;
+
+}
+
+.my-buttons {
+    margin-top: 1100px!important;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 3px!important;
+}
+
+.my-logo-iletisim {
+    width:300px;
+    margin-left: 480px;
+}
+
+.my-m-name {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.my-tanitim {
+    font-size: 12px;
+    width: 600px;
+    margin-left: -150px;
+}
+
+.my-photo {
+    background-position: 49.4253% 72.7769%, 49.4253% 72.7769%;
+    background-position-x: 49.4253%, 49.4253%;
+    background-position-y: 72.7769%, 72.7769%;
+
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    max-width: none;
+    max-height: none;
+    overflow: hidden;
+    opacity: 1!important;
+    background-image: url("https://lh3.googleusercontent.com/RAAaZ0dcN39f9LaIwK0e_lvsKPpiWJKaWYqLH_yUKGg9l560WUNxp3FMMTkP5r4HX6hGCN4u9J7XaSboyGmBn63uGFtCIRgaB5LnnP4=s1349");
+}
+
+.my-effect {
+    background-color: black;
+    opacity: 0.9;
+}
+
+.my-texxt {
+    font-size: 12px;
+    margin-top: 300px!important;
+    color: white;
+}

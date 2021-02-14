@@ -1,0 +1,124 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet"> 
+    
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1"/> 
+
+    <title>Portfolyom</title>
+</head>
+<body>
+    <div class="w3-bar my-bar w3-mobile">
+        <div class="w3-bar-item w3-left my-header-logo w3-mobile"><img class="my-header-logo w3-mobile" src="img/logo.png">
+            <span class="w3-mobile">
+                <a href="" class="my-name w3-mobile">Nova Creative</a>
+            </span>
+        </div>
+
+        <div class="w3-bar-item w3-right my-bar-item w3-mobile"><a href="index.html">Portfolyom</a></div>
+        <div class="w3-bar-item w3-right my-bar-item w3-mobile"><a href="kim.html">Nova Kim?</a></div>
+        <div class="w3-bar-item w3-right my-bar-item w3-mobile"><a href="iletisim.html">Yaz Bana</a></div>
+      </div>
+
+      <div class="w3-container w3-mobile w3-center my-body">
+        <h1 class="my-text w3-center w3-mobile w3-center">LOGO</h1>
+
+
+        <!--kart başlangıcı-->
+        <div class="my-logo-card w3-containe w3-mobiler w3-center">
+        
+        <div class="my-logo-bg w3-mobile"></div>
+
+            <h2>Stay High Logo Design</h2>
+            <h3>Logo Tasarımı</h3>
+        </div>
+        
+
+        <!--kart başlangıcı-->
+        <div class="my-logo-card w3-containe w3-mobiler">
+            <div class="my-logo-bg w3-mobile"></div>
+
+            <h2>Stay High Logo Design</h2>
+            <h3>Logo Tasarımı</h3>
+        </div>
+
+        <!--kart başlangıcı-->
+        <div class="my-logo-card w3-containe w3-mobiler">
+            <div class="my-logo-bg w3-mobile"></div>
+
+            <h2>Stay High Logo Design</h2>
+            <h3>Logo Tasarımı</h3>
+        </div>
+
+        <!--kart başlangıcı-->
+        <div class="my-logo-card w3-containe w3-mobiler">
+            <div class="my-logo-bg w3-mobile"></div>
+
+            <h2>Stay High Logo Design</h2>
+            <h3>Logo Tasarımı</h3>
+        </div>        
+      </div>
+      </div>
+
+      <div class="w3-container my-slideshow ">
+        
+
+        <div class="">
+            
+            <img class="mySlides slider-element" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/9538ee104745713.5f69f43abf534.jpg">
+            <img class="mySlides slider-element" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/454faf110192527.5fe670606e671.jpg">
+            <img class="mySlides slider-element" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1532f7110181857.5fe61a1cbc436.jpg">
+            <img class="mySlides slider-element" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/359dda106714043.5f96aabf226c4.jpg">
+            
+        </div>
+
+        
+      </div>
+
+      <footer class="w3-container w3-center my-footer">
+        <h4> NOVA CREATIVE</h4>
+        <h2 class="my-bar-item my-slogan">Sadece hayal edin ve gerçek yeteneğin kreatif gerçekliği ile büyülensin gözleriniz.</h>
+
+            <br> <br> <br> <br> <br>
+            <div class="w3-container">
+                <a href=""><img src="img/icons/mail.png" class="my-icon"></a>
+                <a href=""><img src="img/icons/instagram.png" class="my-icon"></a>
+                <a href=""><img src="img/icons/youtube.png" class="my-icon"></a>
+                <a href=""><img src="img/icons/twitter.png" class="my-icon"></a>
+            </div>
+
+        <h2 class="my-sd"> Sadece Sosyal Medyada</h2>
+
+        <h3 class="my-uri">www.turkhackteam.org</h3>
+      </footer>
+      <div class="my-buttons">
+        <button class="w3-button w3-display-left my-buttons" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right my-buttons" onclick="plusDivs(+1)">&#10095;</button>
+      </div>
+
+      <script>
+                var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+        }
+      </script>
+</body>
+</html>
+
